@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KnightController : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class KnightController : MonoBehaviour
     float rotSpeed = 80;
     float rot = 0f;
     float gravity = 8;
+    public GameObject walkingDead;
 
     Vector3 moveDir = Vector3.zero;
 
@@ -56,12 +58,56 @@ public class KnightController : MonoBehaviour
                 moveDir = new Vector3(0, 0, 0);
 
             }
+            if (Input.GetKey(KeyCode.A))
+            {
+                anim.SetBool("attack", true);
+            }
+            if (Input.GetKeyUp(KeyCode.A))
+            {
+                anim.SetBool("attack", false);
+            }
         }
 
-        rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
+        
+        if (!controller.isGrounded)
+        {
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                anim.SetBool("walk", true);
+                moveDir = new Vector3(0, 0, 1);
+                moveDir *= speed;
+                moveDir = transform.TransformDirection(moveDir);
+            }
+
+            if (Input.GetKeyUp(KeyCode.UpArrow))
+            {
+                anim.SetBool("walk", false);
+                moveDir = new Vector3(0, 0, 0);
+            }
+        }
+
+            rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
         transform.eulerAngles = new Vector3(0, rot, 0);
        
         moveDir.y -= gravity * Time.deltaTime;
         controller.Move(moveDir * Time.deltaTime);
+    }
+
+    void OnCollisionEnter(Collision collisionInfo)
+    {
+       bool currentAttackState = anim.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("attack");
+        
+
+        Debug.Log("attack " + currentAttackState);
+
+        if (collisionInfo.gameObject.tag == "WalkingDead" && !currentAttackState)
+        {
+            SceneManager.LoadScene(0);
+
+        }
+        if (collisionInfo.gameObject.tag == "WalkingDead" && currentAttackState)
+        {
+            Destroy(transform.gameObject);
+        }
     }
 }
