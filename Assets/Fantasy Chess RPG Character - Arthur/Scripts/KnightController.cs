@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KnightController : MonoBehaviour
+
+
+public class KnightController :  MonoBehaviour 
 {
     float speed = 4;
     float rotSpeed = 60;//80
@@ -81,4 +83,6 @@ public class KnightController : MonoBehaviour
         moveDir.y -= gravity * Time.deltaTime;
         controller.Move(moveDir * Time.deltaTime);
     }
+
+  
 }
