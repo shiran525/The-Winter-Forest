@@ -9,7 +9,7 @@ public class KnightController : MonoBehaviour
     float rotSpeed = 80;
     float rot = 0f;
     float gravity = 8;
-    public GameObject walkingDead;
+  
 
     Vector3 moveDir = Vector3.zero;
 
@@ -93,21 +93,5 @@ public class KnightController : MonoBehaviour
         controller.Move(moveDir * Time.deltaTime);
     }
 
-    void OnCollisionEnter(Collision collisionInfo)
-    {
-       bool currentAttackState = anim.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("attack");
-        
 
-        Debug.Log("attack " + currentAttackState);
-
-        if (collisionInfo.gameObject.tag == "WalkingDead" && !currentAttackState)
-        {
-            SceneManager.LoadScene(0);
-
-        }
-        if (collisionInfo.gameObject.tag == "WalkingDead" && currentAttackState)
-        {
-            Destroy(transform.gameObject);
-        }
-    }
 }
