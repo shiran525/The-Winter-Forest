@@ -58,6 +58,15 @@ public class KnightController :  MonoBehaviour
                 moveDir = new Vector3(0, 0, 0);
 
             }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                anim.SetBool("attack", true);
+            }
+            if (Input.GetKeyUp(KeyCode.A))
+            {
+                anim.SetBool("attack", false);
+            }
         }
 
         if (!controller.isGrounded)
