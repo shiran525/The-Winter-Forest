@@ -49,7 +49,7 @@ public class KnightController : MonoBehaviour
             {
                 anim.SetBool("walk", false);
                 moveDir = new Vector3(0, 1, 0);
-                moveDir *= (speed + 6);
+                moveDir *= (speed + 8);
                 moveDir = transform.TransformDirection(moveDir);
             }
 
