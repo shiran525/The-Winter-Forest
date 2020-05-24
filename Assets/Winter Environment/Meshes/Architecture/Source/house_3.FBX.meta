@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: b219a4b638ddcd242b44ea64557c9ddc
+timeCreated: 1540215443
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: house_2_LOD0
+    100002: house_2_LOD001
+    100004: house_2_LOD002
+    100006: house_2_LOD003
+    100008: //RootNode
+    400000: house_2_LOD0
+    400002: house_2_LOD001
+    400004: house_2_LOD002
+    400006: house_2_LOD003
+    400008: //RootNode
+    2100000: wood_beams.001
+    2100002: wood_wall_2.001
+    2100004: wood_wal_2b
+    2100006: thatch_end_b
+    2100008: stone_wall.001
+    2100010: wood_wall_no_snow
+    2100012: thatch
+    2100014: thatch_end
+    2100016: thatch_end_c
+    2100018: wood_beams
+    2100020: wood_wall_2
+    2100022: stone_wall
+    2100024: door
+    2300000: house_2_LOD0
+    2300002: house_2_LOD001
+    2300004: house_2_LOD002
+    2300006: house_2_LOD003
+    3300000: house_2_LOD0
+    3300002: house_2_LOD001
+    3300004: house_2_LOD002
+    3300006: house_2_LOD003
+    4300000: house_2_LOD003
+    4300002: house_2_LOD002
+    4300004: house_2_LOD001
+    4300006: house_2_LOD0
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door
+    second: {fileID: 2100000, guid: d1757724b372f47418d2c68d691d0e9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_wall
+    second: {fileID: 2100000, guid: 4618c4587cffca54e844995759303633, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thatch
+    second: {fileID: 2100000, guid: 9f56c132bfc877c4f8ff7f0c2d3064b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thatch_end
+    second: {fileID: 2100000, guid: dc94118359ea82344bc5c92825a8b3c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thatch_end_b
+    second: {fileID: 2100000, guid: 5a14e826003acdf4fb92e27f59f468cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thatch_end_c
+    second: {fileID: 2100000, guid: 95b777f041a96eb43aa73b3be7553401, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_beams
+    second: {fileID: 2100000, guid: 7e53ac10ea145bd43a86767e62af2197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_wal_2b
+    second: {fileID: 2100000, guid: e0dbc913f43ac71489c84c76c4d57710, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_wall_2
+    second: {fileID: 2100000, guid: 84d884f9ac3491548b3cfb034f06566a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_wall_no_snow
+    second: {fileID: 2100000, guid: 80462db5e72f9df4dbc2202f359a9921, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

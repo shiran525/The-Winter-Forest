@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!226 &22600000
+BillboardAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: spruce05_BillboardAsset
+  serializedVersion: 2
+  width: 1.1863946
+  bottom: -0.046548843
+  height: 1.1863946
+  imageTexCoords:
+  - {x: 0, y: 0, z: 0.25, w: 0.5}
+  vertices:
+  - {x: 0.064, y: 0}
+  - {x: 0.038, y: 0.288}
+  - {x: 0.474, y: 0.579}
+  - {x: 0.936, y: 0}
+  - {x: 0.962, y: 0.288}
+  - {x: 0.526, y: 0.579}
+  indices: 000003000400000004000100010004000500010005000200
+  material: {fileID: 2100000, guid: 9b3fd4f47034bb74f902607cc8f6cb36, type: 2}

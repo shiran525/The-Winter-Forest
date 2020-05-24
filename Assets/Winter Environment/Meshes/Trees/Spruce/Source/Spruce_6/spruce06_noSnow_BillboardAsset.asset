@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!226 &22600000
+BillboardAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: spruce06_noSnow_BillboardAsset
+  serializedVersion: 2
+  width: 12.656208
+  bottom: -0.4237709
+  height: 12.656208
+  imageTexCoords:
+  - {x: 0, y: 0, z: 0.25, w: 0.5}
+  vertices:
+  - {x: 0.46, y: 0}
+  - {x: 0.253, y: 0.434}
+  - {x: 0.408, y: 0.959}
+  - {x: 0.53999996, y: 0}
+  - {x: 0.747, y: 0.434}
+  - {x: 0.592, y: 0.959}
+  indices: 000003000400000004000100010004000500010005000200
+  material: {fileID: 2100000, guid: fde82cfa746ff344bb06ba2d3621a734, type: 2}

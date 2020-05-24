@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!226 &22600000
+BillboardAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pine04_BillboardAsset
+  serializedVersion: 2
+  width: 18.174374
+  bottom: -1.0649681
+  height: 18.174374
+  imageTexCoords:
+  - {x: 0, y: 0, z: 0.25, w: 0.5}
+  vertices:
+  - {x: 0.297, y: 0.005}
+  - {x: 0.197, y: 0.681}
+  - {x: 0.425, y: 0.941}
+  - {x: 0.703, y: 0.005}
+  - {x: 0.803, y: 0.681}
+  - {x: 0.575, y: 0.941}
+  indices: 000003000400000004000100010004000500010005000200
+  material: {fileID: 2100000, guid: 37237eb7cd937da4194feaa1c24a1e6c, type: 2}

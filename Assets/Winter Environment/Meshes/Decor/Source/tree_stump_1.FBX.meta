@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: ab3648fbaf10f4e4bbf0fffd8595fda0
+timeCreated: 1536759453
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tree_stump_1_LOD0
+    100004: tree_stump_1_LOD1
+    100006: tree_stump_1_LOD2
+    100008: tree_stump_1_LOD3
+    100010: tree_stump_1_LOD001
+    100012: tree_stump_1_LOD002
+    100014: tree_stump_1_LOD003
+    400000: //RootNode
+    400002: tree_stump_1_LOD0
+    400004: tree_stump_1_LOD1
+    400006: tree_stump_1_LOD2
+    400008: tree_stump_1_LOD3
+    400010: tree_stump_1_LOD001
+    400012: tree_stump_1_LOD002
+    400014: tree_stump_1_LOD003
+    2100000: 'Material #2.001'
+    2100002: 'Material #2'
+    2100004: 'Material #2.003'
+    2300000: tree_stump_1_LOD0
+    2300002: tree_stump_1_LOD1
+    2300004: tree_stump_1_LOD2
+    2300006: tree_stump_1_LOD3
+    2300008: tree_stump_1_LOD001
+    2300010: tree_stump_1_LOD002
+    2300012: tree_stump_1_LOD003
+    3300000: tree_stump_1_LOD0
+    3300002: tree_stump_1_LOD1
+    3300004: tree_stump_1_LOD2
+    3300006: tree_stump_1_LOD3
+    3300008: tree_stump_1_LOD001
+    3300010: tree_stump_1_LOD002
+    3300012: tree_stump_1_LOD003
+    4300000: tree_stump_1_LOD3
+    4300002: tree_stump_1_LOD2
+    4300004: tree_stump_1_LOD1
+    4300006: tree_stump_1_LOD0
+    4300008: tree_stump_1_LOD001
+    4300010: tree_stump_1_LOD002
+    4300012: tree_stump_1_LOD003
+    7400000: tree_stump_1_LOD3|tree_stump_1_LOD0|Take 001|BaseLayer
+    7400002: tree_stump_1_LOD3|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD0|Take
+      001|
+    7400004: tree_stump_1_LOD3|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD1|Take
+      001|
+    7400006: tree_stump_1_LOD3|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD2|Take
+      001|
+    7400008: tree_stump_1_LOD3|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD3|Take
+      001|
+    7400010: tree_stump_1_LOD3|tree_stump_1_LOD1|Take 001|BaseLayer
+    7400012: tree_stump_1_LOD3|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD0|Take
+      001|
+    7400014: tree_stump_1_LOD3|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD1|Take
+      001|
+    7400016: tree_stump_1_LOD3|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD2|Take
+      001|
+    7400018: tree_stump_1_LOD3|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD3|Take
+      001|
+    7400020: tree_stump_1_LOD3|tree_stump_1_LOD2|Take 001|BaseLayer
+    7400022: tree_stump_1_LOD3|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD0|Take
+      001|
+    7400024: tree_stump_1_LOD3|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD1|Take
+      001|
+    7400026: tree_stump_1_LOD3|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD2|Take
+      001|
+    7400028: tree_stump_1_LOD3|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD3|Take
+      001|
+    7400030: tree_stump_1_LOD3|tree_stump_1_LOD3|Take 001|BaseLayer
+    7400032: tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD0|Take
+      001|
+    7400034: tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD1|Take
+      001|
+    7400036: tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD2|Take
+      001|
+    7400038: tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD3|Take
+      001|
+    7400040: tree_stump_1_LOD2|tree_stump_1_LOD0|Take 001|BaseLayer
+    7400042: tree_stump_1_LOD2|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD0|Take
+      001|
+    7400044: tree_stump_1_LOD2|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD1|Take
+      001|
+    7400046: tree_stump_1_LOD2|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD2|Take
+      001|
+    7400048: tree_stump_1_LOD2|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD3|Take
+      001|
+    7400050: tree_stump_1_LOD2|tree_stump_1_LOD1|Take 001|BaseLayer
+    7400052: tree_stump_1_LOD2|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD0|Take
+      001|
+    7400054: tree_stump_1_LOD2|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD1|Take
+      001|
+    7400056: tree_stump_1_LOD2|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD2|Take
+      001|
+    7400058: tree_stump_1_LOD2|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD3|Take
+      001|
+    7400060: tree_stump_1_LOD2|tree_stump_1_LOD2|Take 001|BaseLayer
+    7400062: tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD0|Take
+      001|
+    7400064: tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD1|Take
+      001|
+    7400066: tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD2|Take
+      001|
+    7400068: tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD3|Take
+      001|
+    7400070: tree_stump_1_LOD2|tree_stump_1_LOD3|Take 001|BaseLayer
+    7400072: tree_stump_1_LOD2|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD0|Take
+      001|
+    7400074: tree_stump_1_LOD2|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD1|Take
+      001|
+    7400076: tree_stump_1_LOD2|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD2|Take
+      001|
+    7400078: tree_stump_1_LOD2|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD3|Take
+      001|
+    7400080: tree_stump_1_LOD1|tree_stump_1_LOD0|Take 001|BaseLayer
+    7400082: tree_stump_1_LOD1|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD0|Take
+      001|
+    7400084: tree_stump_1_LOD1|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD1|Take
+      001|
+    7400086: tree_stump_1_LOD1|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD2|Take
+      001|
+    7400088: tree_stump_1_LOD1|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD3|Take
+      001|
+    7400090: tree_stump_1_LOD1|tree_stump_1_LOD1|Take 001|BaseLayer
+    7400092: tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD0|Take
+      001|
+    7400094: tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD1|Take
+      001|
+    7400096: tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD2|Take
+      001|
+    7400098: tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD3|Take
+      001|
+    7400100: tree_stump_1_LOD1|tree_stump_1_LOD2|Take 001|BaseLayer
+    7400102: tree_stump_1_LOD1|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD0|Take
+      001|
+    7400104: tree_stump_1_LOD1|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD1|Take
+      001|
+    7400106: tree_stump_1_LOD1|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD2|Take
+      001|
+    7400108: tree_stump_1_LOD1|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD3|Take
+      001|
+    7400110: tree_stump_1_LOD1|tree_stump_1_LOD3|Take 001|BaseLayer
+    7400112: tree_stump_1_LOD1|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD0|Take
+      001|
+    7400114: tree_stump_1_LOD1|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD1|Take
+      001|
+    7400116: tree_stump_1_LOD1|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD2|Take
+      001|
+    7400118: tree_stump_1_LOD1|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD3|Take
+      001|
+    7400120: tree_stump_1_LOD0|tree_stump_1_LOD0|Take 001|BaseLayer
+    7400122: tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD0|Take
+      001|
+    7400124: tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD1|Take
+      001|
+    7400126: tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD2|Take
+      001|
+    7400128: tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD0|tree_stump_1_LOD3|Take
+      001|
+    7400130: tree_stump_1_LOD0|tree_stump_1_LOD1|Take 001|BaseLayer
+    7400132: tree_stump_1_LOD0|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD0|Take
+      001|
+    7400134: tree_stump_1_LOD0|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD1|Take
+      001|
+    7400136: tree_stump_1_LOD0|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD2|Take
+      001|
+    7400138: tree_stump_1_LOD0|tree_stump_1_LOD1|tree_stump_1_LOD1|tree_stump_1_LOD3|Take
+      001|
+    7400140: tree_stump_1_LOD0|tree_stump_1_LOD2|Take 001|BaseLayer
+    7400142: tree_stump_1_LOD0|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD0|Take
+      001|
+    7400144: tree_stump_1_LOD0|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD1|Take
+      001|
+    7400146: tree_stump_1_LOD0|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD2|Take
+      001|
+    7400148: tree_stump_1_LOD0|tree_stump_1_LOD2|tree_stump_1_LOD2|tree_stump_1_LOD3|Take
+      001|
+    7400150: tree_stump_1_LOD0|tree_stump_1_LOD3|Take 001|BaseLayer
+    7400152: tree_stump_1_LOD0|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD0|Take
+      001|
+    7400154: tree_stump_1_LOD0|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD1|Take
+      001|
+    7400156: tree_stump_1_LOD0|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD2|Take
+      001|
+    7400158: tree_stump_1_LOD0|tree_stump_1_LOD3|tree_stump_1_LOD3|tree_stump_1_LOD3|Take
+      001|
+    7400160: Take 001
+    9500000: //RootNode
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2.003'
+    second: {fileID: 2100000, guid: 0d06e1c8f73fc454386bac300212d694, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

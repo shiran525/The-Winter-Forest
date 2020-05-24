@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: birch_leaf_noSnow
+  m_Shader: {fileID: 4800000, guid: b21dd9ef5428e47d88f72f8f830c7e26, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _DETAIL_MULX2 _EMISSION _METALLICGLOSSMAP
+    _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpSpecAOMap:
+        m_Texture: {fileID: 2800000, guid: 37fe0b5bbca93450593b8790186bf777, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpSpecAOMapArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpSpecMap:
+        m_Texture: {fileID: 2800000, guid: b2f43e2ae31d9364aa0f69edd8cff1de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMapX:
+        m_Texture: {fileID: 2800000, guid: 37fe0b5bbca93450593b8790186bf777, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DispTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightTexture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightTextureB0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e911778945c608244ad00ae311c5402a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowMapTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 2800000, guid: 6de3f4e1c0ba9bf4385f8c6641bbff4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnimateNormal: 1
+    - _BranchWind: 0
+    - _BumpScale: 1
+    - _ColorContrast: 1
+    - _ColorMultiplier: 1
+    - _Culling: 0
+    - _Cutoff: 0.245
+    - _DebugBending: 0
+    - _DebugMode: 0
+    - _DetailMode: 0
+    - _DetailNormalMapScale: 1
+    - _Displacement: 0.05
+    - _DstBlend: 10
+    - _EdgeFlutterInfluence: 0.276
+    - _EnableLeafTurbulence: 1
+    - _EnableTransFade: 0
+    - _ExtrudeRange: 4
+    - _FadeOutWind: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IsBark: 0
+    - _LODTerrain: 1
+    - _LeafTumbling: 0
+    - _LeafTurbulence: 0.13
+    - _MainWind: 0
+    - _Metallic: 0
+    - _Mode: 3
+    - _NormalInfluence: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ShadowStrength: 0.669
+    - _SmoothnessTextureChannel: 0
+    - _Snow: 1
+    - _SnowMultiplier: 0
+    - _SpecularHighlights: 1
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _SwapUVS: 0
+    - _Tess: 7
+    - _TimeOffset: 0.29
+    - _TranslucencyStrength: 0
+    - _TranslucencyViewDependency: 0.717
+    - _TumbleFrequency: 0.36
+    - _TumbleStrength: -0.04
+    - _UVSec: 0
+    - _UseArrays: 0
+    - _UseDetails: 0
+    - _ViewDependency: 1
+    - _WetnessMaxSmoothness: 0
+    - _ZWrite: 0
+    - _maxDist: 20
+    - _minDist: 19
+    m_Colors:
+    - _AverageCol: {r: 1, g: 1, b: 1, a: 0.5}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HueVariation: {r: 1, g: 1, b: 1, a: 0}
+    - _TranslucencyColor: {r: 0.6764706, g: 0.6764706, b: 0.6764706, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}

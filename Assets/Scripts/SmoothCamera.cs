@@ -10,7 +10,7 @@ public class SmoothCamera : MonoBehaviour
     {
         target_Offset = transform.position - target.position;
     }
-    void Update()
+    void FixedUpdate()
     {
         if (target)
         {

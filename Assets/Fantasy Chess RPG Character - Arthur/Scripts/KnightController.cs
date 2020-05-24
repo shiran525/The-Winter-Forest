@@ -11,7 +11,6 @@ public class KnightController : MonoBehaviour
     float rot = 0f;
     float gravity = 8;
 
-
     Vector3 moveDir = Vector3.zero;
 
 
@@ -61,6 +60,8 @@ public class KnightController : MonoBehaviour
             if (Input.GetKey(KeyCode.A))
             {
                 anim.SetBool("attack", true);
+
+
             }
             if (Input.GetKeyUp(KeyCode.A))
             {

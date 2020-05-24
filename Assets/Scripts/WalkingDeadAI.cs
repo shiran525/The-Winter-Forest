@@ -8,7 +8,7 @@ public class WalkingDeadAI : MonoBehaviour
     bool currentAttackState;
     public GameObject player;
     Animator animator;
-    public GameObject wd;
+    
 
     private static int numbersOfWD;
     public float movementSpeed;
@@ -25,10 +25,10 @@ public class WalkingDeadAI : MonoBehaviour
         float distance = Vector3.Distance(player.transform.position, transform.position);
         Debug.Log(numbersOfWD);
       
-        currentAttackState = player.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("attack");
+       
         transform.LookAt(player.transform);
         transform.position += transform.forward * movementSpeed * Time.deltaTime;
-        Debug.Log("attack " + currentAttackState);
+       
         if (distance > 20)
         {
 
@@ -46,22 +46,24 @@ public class WalkingDeadAI : MonoBehaviour
     }
  
     void OnCollisionEnter(Collision collisionInfo)
-    {
-        currentAttackState = player.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("attack");
-        animator = player.GetComponent<Animator>();
+    { 
+         animator = player.GetComponent<Animator>();
         
-        Debug.Log("attack " + currentAttackState);
+       
         
-        if (collisionInfo.gameObject.tag == "arthur" && !currentAttackState)
+       
+        
+        if (collisionInfo.gameObject.tag == "arthur" && !animator.GetBool("attack") )
         {
             SceneManager.LoadScene(0);
 
         }
-
+        
         //attacking enemy doesnt work 
-        if (collisionInfo.gameObject.tag == "arthur" && currentAttackState)
+        if (collisionInfo.gameObject.tag == "arthur"&& animator.GetBool("attack"))
         {
             Destroy(transform.gameObject);
         }
+       
     }
 }

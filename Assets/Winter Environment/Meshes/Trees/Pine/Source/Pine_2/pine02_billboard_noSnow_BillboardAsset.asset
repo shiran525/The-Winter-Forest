@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!226 &22600000
+BillboardAsset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pine02_billboard_noSnow_BillboardAsset
+  serializedVersion: 2
+  width: 15.667504
+  bottom: -0.969471
+  height: 15.667504
+  imageTexCoords:
+  - {x: 0, y: 0, z: 0.25, w: 0.5}
+  vertices:
+  - {x: 0.465, y: 0}
+  - {x: 0.056, y: 0.459}
+  - {x: 0.141, y: 0.944}
+  - {x: 0.53499997, y: 0}
+  - {x: 0.944, y: 0.459}
+  - {x: 0.85899997, y: 0.944}
+  indices: 000003000400000004000100010004000500010005000200
+  material: {fileID: 2100000, guid: f6c201ca62d83344a92e0bcae5c34e50, type: 2}

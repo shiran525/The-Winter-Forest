@@ -7,6 +7,7 @@ TagManager:
   - WalkingDead
   - arthur
   - weapon
+  - Enemy
   layers:
   - Default
   - TransparentFX
